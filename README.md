@@ -1,6 +1,8 @@
 Stretchie
 =========
 
+[![Build Status](https://travis-ci.org/adambregenzer/stretchie.svg?branch=master)](https://travis-ci.org/adambregenzer/stretchie) [![Coverage Status](https://img.shields.io/coveralls/adambregenzer/stretchie.svg)](https://coveralls.io/r/adambregenzer/stretchie)
+
 Comfortable searching pants for ActiveRecord Models. Stretchie simplifies
 using elastic search in your models and provides hooks to ease testing.
 
