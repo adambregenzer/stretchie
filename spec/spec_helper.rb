@@ -3,6 +3,9 @@ SimpleCov.start do
   add_filter '/spec/'
 end
 
+require 'coveralls'
+Coveralls.wear!
+
 ENV['RAILS_ENV'] ||= 'test'
 
 require_relative '../lib/stretchie'
