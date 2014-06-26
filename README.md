@@ -50,7 +50,7 @@ And you would add this to your model:
 include Search::User
 ```
 
-If you have liked models, you can have them re-index automatically with `index_dependent_models`:
+If you have linked models, you can have them re-index automatically with `index_dependent_models`:
 ```ruby
 class User < ActiveRecord::Base
   include Search::User
